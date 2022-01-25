@@ -9,6 +9,31 @@
 <body>
     <?php
        echo "hello php introduction";
-    ?>
+       // CMS (content management system)
+       // E-commerce website
+       // mail server
+       // Chatting system
+       // File Storage system
+       // ERP(Enterprise resource planning )
+       // CRM( Customer Relationship management)
+       /* 
+       popular website use in php
+       // facebook , yahoo, wikipedia, wordpress, mailchimp, flickr, flipkart
+       */
+      /*
+         prior knowledge before learn php
+         1.html
+         2.css
+         3.javascript 
+      */
+        /*
+          software requirement for php
+          1. html editor( notepad++ , vs code, subline, atom)
+          2.web browser
+          3.wamp or xampp server
+         
+         */
+       
+       ?>
 </body>
 </html>
