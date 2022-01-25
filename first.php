@@ -8,7 +8,7 @@
 </head>
 <body>
     <?php
-
+         // basic structure of php 
         echo "hello india";
     ?>
 </body>
