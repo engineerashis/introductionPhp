@@ -8,6 +8,8 @@
 </head>
 <body>
     <?php
+       // different betweent echo and print
+       // accept comma , in echo statement but fatal in comma when used print statement
          echo "<h1>hello world </h1>";
          echo "<h1> hello php "." with ashis roy</h1>";
          print "hello i'm print";
