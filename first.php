@@ -10,6 +10,6 @@
     <?php
 
         echo "hello india";
-            ?>
+    ?>
 </body>
 </html>
