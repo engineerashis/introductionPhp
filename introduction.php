@@ -8,6 +8,7 @@
 </head>
 <body>
     <?php
+       // php stand with Hypertext Preprocessor .PHP is a server scripting language
        echo "hello php introduction";
        // CMS (content management system)
        // E-commerce website
