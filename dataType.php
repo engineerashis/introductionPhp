@@ -9,6 +9,7 @@
 <body>
      <?php
      /*
+      Data type: 
       data type of php 
       $a="hello world" ....... string
       $b=21;....................integer

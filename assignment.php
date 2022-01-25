@@ -8,7 +8,7 @@
 </head>
 <body>
     <?php
-    //assignment operators = , +=, -=, *=, **=,/=, %=
+    //assignment operators(= , +=, -=, *=, **=,/=, %=)
     // $a=10;
     // echo $a;
 

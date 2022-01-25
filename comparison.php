@@ -8,7 +8,7 @@
 </head>
 <body>
     <?php
-      //comparison operators ==, ===, != , !==, <>, > , >=, <, <=, <=>
+      //comparison operators (==, ===, != , !==, <>, > , >=, <, <=, <=>)
       // reture always true or false
     //   $a=10;
     //   $b=10;

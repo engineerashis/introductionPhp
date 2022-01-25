@@ -8,6 +8,7 @@
 </head>
 <body>
     <?php
+    // arithmetic opperator (+, - , *, / , ** , %, ++, --)
      // additional operator
     //  $a=10;
     //  $b=30;
