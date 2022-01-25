@@ -8,6 +8,8 @@
 </head>
 <body>
     <?php
+    // variable Variables in a program are used to store some values or data that can be used 
+    //later in a program.
      $a="hello php <br>";
      echo " this is php variable : ". $a;
      echo " this is php variable : ". $a;
