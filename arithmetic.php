@@ -7,6 +7,54 @@
     <title>arithmetic operator </title>
 </head>
 <body>
-    
+    <?php
+     // additional operator
+    //  $a=10;
+    //  $b=30;
+    //  $c=$a+$b;
+    //  echo $c;
+
+    // $x=30;
+    // $y=20;
+    // $z=$x-$y;
+    //  echo $z;
+
+    // $a=10;
+    // $b=20;
+    // $c=$a*$b;
+    // echo $c;
+
+    // $a=2;
+    // $b=3;
+    // $c=$a**$b;
+    // echo $c;
+
+    // $a=20;
+    // $b=10;
+    // $c=$a/$b;
+    // echo $c;
+
+    // $a=5;
+    // $b=2;
+    // $c=$a%$b;
+    // echo $c;
+
+    // $a=10;
+    // $b=20;
+    // $b++;
+    // $c=$a+$b;
+    // echo $c;
+
+    $a=10;
+    $b=20;
+    $b--;
+    $c=$a+$b;
+    echo $c;
+
+
+
+
+
+    ?>
 </body>
 </html>
