@@ -24,8 +24,14 @@
     //     echo "hello world";
     // }
 
-    if(false){
-        echo "this is false";
+    // if(false){
+    //     echo "this is false";
+    // }
+
+    $a=10;
+    $b=20;
+    if($a<$b){
+        echo "this is true  statement";
     }
     
 
