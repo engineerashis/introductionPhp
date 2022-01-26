@@ -14,14 +14,26 @@
     //    }
 
     //use break & continue statement 
-    for($a=1; $a<10; $a++){
-        if($a==3){
-            // break;
-            continue;
-        }
-        echo "$a <br>";
-    }
+    // for($a=1; $a<10; $a++){
+    //     if($a==3){
+    //         // break;
+    //         continue;
+    //     }
+    //     echo "$a <br>";
+    // }
 
+    //goto statement
+    for($a=1; $a<10; $a++){
+        if($a==5){
+            echo "<br>";
+            goto abc;
+        }
+        echo $a;
+    }
+     abc:
+    for($x=10; $x>1; $x--){
+        echo "$x <br>";
+    }
     ?>
 </body>
 </html>
