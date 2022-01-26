@@ -8,9 +8,13 @@
 </head>
 <body>
     <?php
-      function FunctionName($name1){
-          echo "$name1 <br>";
+    //function with parameter;
+      function FunctionName($name1 , $name2){
+          echo "$name1 . $name2 <br>"; 
       }
+      FunctionName("uzzal ", "roy");
+      FunctionName("sintheya"," roy");
+      FunctionName("shonjib kumar", " roy");
     
     
     ?>
