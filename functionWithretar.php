@@ -21,8 +21,14 @@
         $sum=$math+$phy+$che;
         return $sum;
     }
+    function percentage($st){
+        $per=$st/3;
+        echo $per;
+    }
     $total=FunctionName(75, 65, 84);
-    echo $total;
+    
+    percentage($total);
+    
     ?>
 </body>
 </html>
