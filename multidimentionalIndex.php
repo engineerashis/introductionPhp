@@ -7,13 +7,19 @@
     <title>multidimentional index array</title>
 </head>
 <body>
+    <!-- <style>
+        table,td{
+            border: 2px solid black;
+            
+        }
+    </style> -->
     <?php
 
     //multidimensional index array
        $emp=[
-           ["1", "A","2000","No 1"],
-           ["2","B","3000","No 2"],
-           ["3", "C", "4000", "No 3"]
+           ["1", "A","2000"," serial No 1"],
+           ["2","B","3000","serial no 2"],
+           ["3", "C", "4000", "serial no 3"]
        ];
         //    echo $emp[0][0]. "  ";
         //    echo $emp[0][1]. "  ";
@@ -42,13 +48,23 @@
     //     }
     //     echo "<br>";
     // }
-
+   echo "<table border='1px' cellpadding='4px' cellspacing='0px'>
+      <tr>
+          <th>No </th>
+          <th>Name </th>
+          <th>Salary </th>
+          <th>Serial No </th>
+      </tr>
+      ";
+  
     foreach($emp as $v1){
+        echo "<tr>";
         foreach($v1 as $v2){
-            echo $v2. "  ";
+            echo "<td> $v2 </td>";
         }
-        echo "<br>";
+        echo "</tr>";
     }
+    echo "</table>";
 
     ?>
 </body>
