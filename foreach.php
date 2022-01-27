@@ -8,16 +8,32 @@
 </head>
 <body>
     <?php
-       $cars=array(
-           "a"=>" volvo",
-           "b"=> "toyota",
-           "c"=>" shymoli"
-       );
-       foreach($cars as $key => $value){
-           echo  $key .  $value. "<br>";
-       }
+    //    $cars=array(
+    //        "a"=>" volvo",
+    //        "b"=> "toyota",
+    //        "c"=>" shymoli"
+    //    );
+    //    foreach($cars as $key => $value){
+    //        echo  $key .  $value. "<br>";
+    //    }
+    // $colors=array(
+    //     "green",
+    //     "yellow",
+    //     "red"
+    // );
+        
+    // foreach($colors as $value){
+    //     echo $value. "<br>";
+    // }
     
-    
+    $colors=[
+        "a"=> "red",
+        "b"=> "yellow",
+        "c" => "green"
+    ];
+    foreach($colors as $key => $value){
+        echo "$key . $value. <br>";
+    }
     
     ?>
 </body>
