@@ -42,12 +42,12 @@
     //    print_r($emp);
     //    echo "</pre>";
 
-    // for($row=0; $row<3; $row++){
-    //     for($col=0; $col<3; $col++){
-    //         echo $emp[$row][$col]. "  ";
-    //     }
-    //     echo "<br>";
-    // }
+    for($row=0; $row<3; $row++){
+        for($col=0; $col<3; $col++){
+            echo $emp[$row][$col]. "  ";
+        }
+        echo "<br>";
+    }
    echo "<table border='1px' cellpadding='4px' cellspacing='0px'>
       <tr>
           <th>No </th>
@@ -65,6 +65,9 @@
         echo "</tr>";
     }
     echo "</table>";
+
+    // multidimensional associative array
+    
 
     ?>
 </body>
